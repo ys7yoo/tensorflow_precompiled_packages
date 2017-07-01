@@ -36,6 +36,5 @@ wget https://github.com/tensorflow/tensorflow/archive/v1.2.1.zip
 ```bash
 ./configure
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
+bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 ```
-
-4. Wait for a while...
