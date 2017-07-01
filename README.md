@@ -47,8 +47,6 @@ pip install /tmp/tensorflow_pkg/tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.
 
 ## Compiled packages
 
-* [TensorFlow 1.2.1, OSX 10.12 ("Sierra"), Python 3.6 (Build on comp, 
-tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl)](http://brain.inu.ac.kr/tensorflow/tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl)
-* [TensorFlow 1.2.1, OSX 10.11 ("El Capitan"), Python 2.7 (Build on neuro, 
-tensorflow-1.2.1-cp27-cp27m-macosx_10_11_intel.whl)](http://brain.inu.ac.kr/tensorflow/tensorflow-1.2.1-cp27-cp27m-macosx_10_11_intel.whl)
+* TensorFlow 1.2.1, OSX 10.12 ("Sierra"), Python 3.6 (Built on comp, tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl)
+* TensorFlow 1.2.1, OSX 10.11 ("El Capitan"), Python 2.7 (Built on neuro,tensorflow-1.2.1-cp27-cp27m-macosx_10_11_intel.whl)
 
