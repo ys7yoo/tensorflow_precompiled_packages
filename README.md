@@ -38,3 +38,9 @@ wget https://github.com/tensorflow/tensorflow/archive/v1.2.1.zip
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
 bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 ```
+
+## Compiled packages
+
+* [TensorFlow 1.2.1, OSX 10.12, Python 3.6 (
+tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl)](http://brain.inu.ac.kr/tensorflow/tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl)
+
