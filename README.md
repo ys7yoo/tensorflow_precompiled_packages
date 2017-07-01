@@ -1,4 +1,10 @@
 # tensorflow_precompiled_packages
+It is a good idea to build TensorFlow from the source 
+if you don't want to see the warning like this: 
+```
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+```
 
 Official guide is here [https://www.tensorflow.org/install/install_sources](https://www.tensorflow.org/install/install_sources).
 
