@@ -41,6 +41,6 @@ bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 
 ## Compiled packages
 
-* [TensorFlow 1.2.1, OSX 10.12, Python 3.6 (
+* [TensorFlow 1.2.1, OSX 10.12, Python 3.6 (Build on comp, 
 tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl)](http://brain.inu.ac.kr/tensorflow/tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl)
 
