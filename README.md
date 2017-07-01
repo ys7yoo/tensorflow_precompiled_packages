@@ -1,7 +1,8 @@
 # tensorflow_precompiled_packages
 
+Official guide is here [https://www.tensorflow.org/install/install_sources](https://www.tensorflow.org/install/install_sources).
 
-# A brief memo for building TensorFlow on OSX
+## A brief memo for building TensorFlow on OSX
 
 1. install Bazel
 
@@ -16,7 +17,9 @@ sudo ./bazel-0.5.2-installer-darwin-x86_64.sh
 ```
 
 2. Get TensorFlow source
+
 You can get the latest version from [https://github.com/tensorflow/tensorflow/releases](https://github.com/tensorflow/tensorflow/releases).
+
 For example, 
 ```bash
 wget https://github.com/tensorflow/tensorflow/archive/v1.2.1.zip
@@ -29,3 +32,4 @@ wget https://github.com/tensorflow/tensorflow/archive/v1.2.1.zip
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
 ```
 
+4. Wait for a while...
