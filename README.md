@@ -15,3 +15,15 @@ chmod 755 bazel-0.5.2-installer-darwin-x86_64.sh
 sudo ./bazel-0.5.2-installer-darwin-x86_64.sh
 ```
 
+
+2. Get TensorFlow source from 
+
+[https://github.com/tensorflow/tensorflow/releases](https://github.com/tensorflow/tensorflow/releases)
+
+3. Build TensorFlow 
+
+```bash
+./configure
+bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
+```
+
