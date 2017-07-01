@@ -36,17 +36,19 @@ wget https://github.com/tensorflow/tensorflow/archive/v1.2.1.zip
 ```bash
 ./configure
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
-bazel-bin/tensorflow/tools/pip_package/build_pip_package tensorflow_pkg
+bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 ```
 
 4. Install the package
 ```bash
 pip uninstall tensorflow # if you have installed the same version
-pip install tensorflow_pkg/tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl
+pip install /tmp/tensorflow_pkg/tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl
 ```
 
 ## Compiled packages
 
 * [TensorFlow 1.2.1, OSX 10.12, Python 3.6 (Build on comp, 
 tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl)](http://brain.inu.ac.kr/tensorflow/tensorflow-1.2.1-cp36-cp36m-macosx_10_12_x86_64.whl)
+* [TensorFlow 1.2.1, OSX 10.11, Python 2.7 (Build on neuro, 
+tensorflow-1.2.1-cp27-cp27m-macosx_10_11_intel.whl)](http://brain.inu.ac.kr/tensorflow/tensorflow-1.2.1-cp27-cp27m-macosx_10_11_intel.whl)
 
