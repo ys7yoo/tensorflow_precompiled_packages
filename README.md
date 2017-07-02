@@ -39,6 +39,9 @@ bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
 bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 ```
 
+Befor this, make sure that you installed some python packages (such as numpy and so forth).
+
+
 4. Install the package
 ```bash
 pip uninstall tensorflow # if you have installed the same version
